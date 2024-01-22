@@ -12,6 +12,20 @@ body {
 
 button {
     cursor: pointer;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover,
+button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
@@ -20,16 +34,42 @@ a {
     text-decoration: none;
 }
 
-h2 {
+a:visited {
+    color: inherit;
+}
 
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 h3 {
-
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
 }
 
 p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+}
 
+ul {
+    list-style: none;
+}
+
+address {
+    font-style: normal;
 }
 
 .logo {
@@ -48,8 +88,7 @@ p {
     color: #000000;
 }
 
-.navigation-item{
-    color: #212121;
+.navigation-item {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -88,8 +127,27 @@ p {
     text-align: center;
 }
 
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
 .advantages-title {
     display: none;
+}
+
+.team-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+.job-title {
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 .footer {
@@ -105,6 +163,32 @@ p {
 }
 
 .footer-contacts-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1 px;
     color: var(--white-color);
     opacity: 0.6;
+}
+
+.button-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    align-items: center;
+}
+
+.project-name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.project-subvision {
+    font-size: 16px;
+    line-height: 1.8;
 }
